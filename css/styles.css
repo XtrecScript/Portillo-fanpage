@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+.conta{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(48, 42, 49);
+  color: #fff;
+}
+.barra{
+  padding: 2em;
+}
+.nashe{
+  margin-top: -7;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2em;
+}
+h1{
+  color: aqua;
+  font-size: 3em;
+}
+main img{
+  width: 350px;
+  border: 7px solid aqua;
+  height: 520px;
+}
+main p{
+  margin-right: 40px;
+  padding: 10px;
+}
+.hola{
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+width: 100vw;
+align-items: center;
+}
+
+.hola img{
+  width: 100%;
+  grid-column: 1/5;
+}
+.aboutif{
+  grid-column: 5/10;
+  padding: 3em;
+  background-color: rgb(243, 236, 236);
+}
+
+.aboutif h2{
+  color: rgb(48, 42, 49);
+  font-size: 2em;
+}
+.raya {
+  height: 4px;
+  width: 60px;
+  background-color: rgb(26, 224, 158);
+  margin-top: 10px;
+  margin-bottom: 2em;
+  
+}
+.navi li{
+list-style: none;
+color: black;
+padding: 5px;
+}
+.proyectlink {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+
+}
+.you{
+  color: rgb(136, 1, 1);
+  text-decoration: none;
+}
+.ins{
+  color: rgb(212, 135, 19);
+  text-decoration: none;
+}
+.twe{
+  color: aqua;
+  text-decoration: none;
+}
+.face{
+  color: blue;
+  text-decoration: none;
+}
+.proyectlink i{
+  font-size: 2.3em;
+}
+.one{
+ color: rgb(211, 9, 9);
+ padding: 10px;
+}
+.twoo{
+  color: #3f729b;
+  padding: 10px;
+}
+.ul1{
+  color: black;
+}
+.conta2{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(37, 46, 102);
+  color: #fff;
+}
+.padre{
+  background-color: rgb(42, 52, 80);
+}
+.hijo{
+  width: 400px;
+ display: inline-block;
+  margin-left: 170px;
+}
+.hijo2{
+  width: 400px;
+  display: inline-block;
+  margin-left: 170px;
+
+}
+.noc{
+  width: 100%;
+  display: inline;
+}
+.nashe2{
+  margin-top: -7;
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 20px;
+}
